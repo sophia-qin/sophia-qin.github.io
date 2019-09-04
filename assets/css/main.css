@@ -105,6 +105,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -3063,6 +3064,9 @@ input, select, textarea {
 				top: auto;
 				width: 100%;
 				display: block;
+				background-color: #8EA6E2;
+				background-attachment: scroll,								scroll;
+				background-image: url("../../images/bg.jpg");
 			}
 
 				#header h1 {
@@ -3078,9 +3082,9 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("../../images/bg.jpg"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
+				background-repeat: repeat,							repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
